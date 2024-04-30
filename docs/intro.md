@@ -173,6 +173,24 @@ export default Header;
     ### Lower Header
     In the lower header section, you'll find button for the DA-NFRDI Logo / Text. Clicking on this button serves as a home button, redirecting users to the procurement section of the website.
 
+     ![Alt text](/img/Snippets/DA-NFRDI.png)
+
+     Finally, you'll find links to NFRDI's social media profiles, including Facebook, Twitter, and Youtube, allowing users to connect with the institute through various platforms.
+
+     ![Alt text](/img/Snippets/NFRDI_SocMeds.png)
+
+     **Facebook**
+
+     ![Alt text](/img/Snippets/Facebook.png)
+
+     **Twitter**
+
+     ![Alt text](/img/Snippets/Twitter.png)
+
+     **YouTube**
+
+     ![Alt text](/img/Snippets/YouTube.png)
+
   </TabItem>
   <TabItem value="Body" label="Body">
     This is an Body 🍊
