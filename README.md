@@ -22,7 +22,7 @@ const FeatureList = [
   },
   {
     title: "Before we start",
-    Svg: require("/static/img/Snippets/Install_logo.svg").default,
+    Svg: require("https://github.com/Nenjii/NFRDI_ProcurementWebsite-Documentation/blob/main/static/img/Snippets/Install_logo.svg").default,
     description: (
       <>
         Let's install some things first:
