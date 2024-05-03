@@ -4,7 +4,8 @@ The NFRDI Procurement website is developed using React.js for the frontend, whil
 
 ### Let's get started.
 
-<>
+![Alt text](https://github.com/Nenjii/NFRDI_ProcurementWebsite-Documentation/blob/main/static/img/Snippets/Node.js_logo.svg)
+
 Let's install some things first:
 
         ## 1. Install Node.js and npm
@@ -30,7 +31,6 @@ Let's install some things first:
         ```
         npm install -g create-react-app
         ```
-</>
 
 
 
