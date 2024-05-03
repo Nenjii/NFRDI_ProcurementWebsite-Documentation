@@ -184,7 +184,7 @@ export default Header;
      ![Alt text](/img/Snippets/NFRDI_SocMeds.png)
 
   <Tabs>
-  <TabItem value="Facebook" label="Facebook" default  >
+  <TabItem value="Facebook" label="Facebook" default >
     Visit the [**Facebook**](https://www.facebook.com/nfrdiphilippines) page of the NFRDI Philippines.
      ![Alt text](/img/Snippets/Facebook.png)
 
