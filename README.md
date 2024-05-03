@@ -4,7 +4,7 @@ The NFRDI Procurement website is developed using React.js for the frontend, whil
 
 ### Let's get started.
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: center;">
     <img src="https://github.com/Nenjii/NFRDI_ProcurementWebsite-Documentation/blob/main/static/img/Snippets/Node.js_logo.svg" alt="Alt text" width="100" height="100">
     <img src="https://github.com/Nenjii/NFRDI_ProcurementWebsite-Documentation/blob/main/static/img/Snippets/Npm-logo.svg" alt="Alt text" width="100" height="100">
     <img src="https://github.com/Nenjii/NFRDI_ProcurementWebsite-Documentation/blob/main/static/img/Snippets/Javascript_logo.svg" alt="Alt text" width="100" height="100">
