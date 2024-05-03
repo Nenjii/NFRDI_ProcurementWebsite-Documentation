@@ -4,27 +4,6 @@ The NFRDI Procurement website is developed using React.js for the frontend, whil
 
 ### Let's get started.
 
-const FeatureList = [
-{
-Svg: require("/static/img/Snippets/Node.js_logo.svg").default,
-description: "Node.js",
-},
-{
-Svg: require("/static/img/Snippets/Npm-logo.svg").default,
-description: "npm",
-},
-{
-Svg: require("/static/img/Snippets/Javascript_logo.svg").default,
-description: "JavaScript",
-},
-{
-Svg: require("/static/img/Snippets/VSCode_logo.svg").default,
-description: "Visual Studio Code",
-},
-{
-title: "Before we start",
-Svg: require("https://github.com/Nenjii/NFRDI_ProcurementWebsite-Documentation/blob/main/static/img/Snippets/Install_logo.svg").default,
-description: (
 <>
 Let's install some things first:
 
@@ -51,12 +30,7 @@ Let's install some things first:
         ```
         npm install -g create-react-app
         ```
-      </>
-    ),
+</>
 
-},
-{
-Svg: require("/static/img/Snippets/Xampp_logo.svg").default,
-description: "XAMPP",
-},
-];
+
+
