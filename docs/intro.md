@@ -759,7 +759,7 @@ export default CalendarYear;
 
 Within the sidebar, you'll encounter the calendar year feature. It presents years ranging from 2024 to 2015. Upon selecting a specific year, you'll be presented with two options: Bidding and Alternative Procurements.
 
-![Alt text](/img/Snippets/SideBar.png) --- ![Alt text](/img/Snippets/SideBar-Opt.png)
+![Alt text](/img/Snippets/SideBar.png) → → → ![Alt text](/img/Snippets/SideBar-Opt.png)
 
     ### Calendar Year Contents
     Moving on to the content section, selecting either Bidding or Alternative will prompt a menu for further selection. You can choose to display either Ongoing or Completed procurements.
