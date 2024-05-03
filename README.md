@@ -14,35 +14,75 @@ The NFRDI Procurement website is developed using React.js for the frontend, whil
     </div>
 </div>
 
+# React.js with PHP Backend Setup Guide
 
+This guide will walk you through setting up your development environment for creating a React.js application with a PHP backend using phpMyAdmin for the database.
 
+## Prerequisites
 
+Before you begin, make sure you have the following software installed on your system:
 
-Let's install some things first:
+- [Node.js and npm](https://nodejs.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [XAMPP](https://www.apachefriends.org/index.html)
 
-        ## 1. Install Node.js and npm
+## Installation and Configuration Steps
 
-        Node.js is a JavaScript runtime environment, and npm is a package manager for Node.js.
+1. **Node.js and npm Installation:**
 
-        - Go to the Node.js website: [https://nodejs.org/](https://nodejs.org/)
-        - Download and install the latest LTS version of Node.js for your operating system.
-        - npm is included with Node.js, so once you install Node.js, npm will be installed automatically.
+    ```bash
+    # Verify Node.js installation
+    node -v
+    
+    # Verify npm installation
+    npm -v
+    ```
 
-        ## 2. Install Visual Studio Code (VSCode)
+2. **IDE (Visual Studio Code) Installation:**
 
-        VSCode is a lightweight and powerful source code editor developed by Microsoft.
+    Download and install Visual Studio Code from the [official website](https://code.visualstudio.com/).
 
-        - You can download and install VSCode for free from the official website: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+3. **XAMPP Installation (for PHP and MySQL):**
 
-        ## 3. Install Create React App (Optional)
+    Download and install XAMPP from the [official website](https://www.apachefriends.org/index.html). During installation, select Apache, MySQL, and PHP components.
 
-        Create React App is a tool that helps you quickly set up a new React.js project with a pre-configured development environment.
+4. **phpMyAdmin Configuration:**
 
-        To install Create React App globally, run the following command:
+    - Open your web browser and navigate to `http://localhost/phpmyadmin`.
+    - Log in with the default username `root` and leave the password field blank.
+    - Create a new database by clicking on the "New" button on the left sidebar.
 
-        ```
-        npm install -g create-react-app
-        ```
+5. **React.js Project Setup:**
+
+    ```bash
+    # Create a new React.js project
+    npx create-react-app my-app
+    
+    # Navigate into the project directory
+    cd my-app
+    ```
+
+6. **Connecting React.js with PHP and MySQL:**
+
+    Use Axios or Fetch API to make HTTP requests from your React.js frontend to your PHP backend. Use MySQLi or PDO to interact with the MySQL database in your PHP files.
+
+7. **Start Development Server:**
+
+    ```bash
+    # Start the development server
+    npm start
+    ```
+
+    Your React.js application will be accessible in your web browser at `http://localhost:3000`.
+
+## Additional Notes
+
+- Ensure your PHP files are located in the appropriate directory where your XAMPP Apache server can access them (typically the `htdocs` directory in your XAMPP installation folder).
+
+## Troubleshooting
+
+If you encounter any issues during the setup process, feel free to ask for further assistance!
+
 
 
 
