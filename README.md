@@ -1,62 +1,41 @@
-# NFRDI Procurement Documentation
+# Website
 
-The NFRDI Procurement website is developed using React.js for the frontend, while the backend database is managed using phpMyAdmin.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-### Let's get started.
+### Installation
 
-const FeatureList = [
-{
-Svg: require("/static/img/Snippets/Node.js_logo.svg").default,
-description: "Node.js",
-},
-{
-Svg: require("/static/img/Snippets/Npm-logo.svg").default,
-description: "npm",
-},
-{
-Svg: require("/static/img/Snippets/Javascript_logo.svg").default,
-description: "JavaScript",
-},
-{
-Svg: require("/static/img/Snippets/VSCode_logo.svg").default,
-description: "Visual Studio Code",
-},
-{
-title: "Before we start",
-Svg: require("https://github.com/Nenjii/NFRDI_ProcurementWebsite-Documentation/blob/main/static/img/Snippets/Install_logo.svg").default,
-description: (
-<>
-Let's install some things first:
+```
+$ yarn
+```
 
-        ## 1. Install Node.js and npm
+### Local Development
 
-        Node.js is a JavaScript runtime environment, and npm is a package manager for Node.js.
+```
+$ yarn start
+```
 
-        - Go to the Node.js website: [https://nodejs.org/](https://nodejs.org/)
-        - Download and install the latest LTS version of Node.js for your operating system.
-        - npm is included with Node.js, so once you install Node.js, npm will be installed automatically.
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-        ## 2. Install Visual Studio Code (VSCode)
+### Build
 
-        VSCode is a lightweight and powerful source code editor developed by Microsoft.
+```
+$ yarn build
+```
 
-        - You can download and install VSCode for free from the official website: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-        ## 3. Install Create React App (Optional)
+### Deployment
 
-        Create React App is a tool that helps you quickly set up a new React.js project with a pre-configured development environment.
+Using SSH:
 
-        To install Create React App globally, run the following command:
+```
+$ USE_SSH=true yarn deploy
+```
 
-        ```
-        npm install -g create-react-app
-        ```
-      </>
-    ),
+Not using SSH:
 
-},
-{
-Svg: require("/static/img/Snippets/Xampp_logo.svg").default,
-description: "XAMPP",
-},
-];
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
