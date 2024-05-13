@@ -6,10 +6,12 @@ sidebar_position: 1
 
 The website utilizes the following fonts:
 
-- **Heading**: [Font Name]
-- **Body Text**: [Font Name]
-- **Navigation**: [Font Name]
-- **Buttons**: [Font Name]
-- **Other Text Elements**: [Font Name]
+### FONTS
 
-## Here is a compilation of all the fonts used in this website:
+#### [**Monstserrat**](https://fonts.google.com/specimen/Montserrat)
+
+![Alt text](/img/Snippets/Font_Monstserrat.png)
+
+#### [**Garamound**](https://fonts.google.com/specimen/EB+Garamond)
+
+![Alt text](/img/Snippets/Font_Garamound.png)
